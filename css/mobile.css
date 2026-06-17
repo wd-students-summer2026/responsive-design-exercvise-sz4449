@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.columns {
+  display: block;
+}
+
+.column1,
+.column2,
+.column3 {
+  width: 100%;
+}
+
+header,
+footer,
+main {
+  padding: 15px;
+}
+
+nav a {
+  display: block;
+  margin: 10px 0;
+}
+
+.wireframe-gallery {
+  display: block;
+}
+
+.wireframe-item {
+  width: 100%;
+}

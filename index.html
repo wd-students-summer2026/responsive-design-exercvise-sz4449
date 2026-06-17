@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Media query for narrow browser width -->
+    <link
+        rel="stylesheet"
+        media="only screen and (max-width: 480px)"
+        href="css/mobile.css"
+    />
+
+    <!-- Media query for medium browser width -->
+    <link
+        rel="stylesheet"
+        media="only screen and (min-width: 481px) and (max-width: 960px)"
+        href="css/tablet.css"
+    />
+
+    <!-- Media query for full browser width -->
+    <link
+        rel="stylesheet"
+        media="only screen and (min-width: 961px)"
+        href="css/desktop.css"
+    />
+
+    <!-- Prevent smartphones from scaling the page by default -->
+    <meta name="viewport" content="initial-scale=1" />
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Welcome to My Website</h1>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about_me.html">About Me</a>
+                <a href="more_about_me.html">More About Me</a>
+                <a href="topic_of_interest.html">Topic of Interest</a>
+                <a href="user_experience_design.html">User Experience Design</a>
+            </nav>
+        </header>
+
+        <main class="columns">
+            <section class="column1">
+                <h2>Home Page</h2>
+
+                <p>
+                    Welcome to my personal website. This site includes information about me,
+                    more details about my interests, and a topic of interest page with JQuery interactions.
+                </p>
+            </section>
+
+            <section class="column2">
+                <h2>About This Site</h2>
+
+                <p>
+                    This website was created for my web design class. It includes several pages
+                    that show my personal information, interests, and class projects.
+                </p>
+            </section>
+
+            <section class="column3">
+                <h2>Explore</h2>
+
+                <p>
+                    Please use the navigation links above to visit the different pages.
+                    The layout of this website changes on desktop, tablet, and mobile screens.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Teri Zhu</p>
+        </footer>
+
+    </div>
+</body>
+</html>

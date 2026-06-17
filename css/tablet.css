@@ -1,0 +1,27 @@
+.container {
+  width: 760px;
+  max-width: 100%;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column1,
+.column2 {
+  width: 50%;
+}
+
+.column3 {
+  width: 100%;
+}
+
+.wireframe-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wireframe-item {
+  width: 48%;
+}

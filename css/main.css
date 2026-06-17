@@ -1,0 +1,192 @@
+
+body {
+    background-color: #e2cdcd;
+    color: #454343;
+    margin: 20px;
+}
+
+/* paragraph style */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* heading style */
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #2c3e50;
+}
+
+/* link styles */
+a:link {
+    color: blue;
+    background-color: #e8f0ff;
+}
+
+a:visited {
+    color: purple;
+    background-color: #f3e8ff;
+}
+
+a:hover {
+    color: white;
+    background-color: #2c3e50;
+}
+
+a:active {
+    color: white;
+    background-color: red;
+}
+
+/* sections on about me and more about me pages */
+.about-page section,
+.more-about-page section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #777777;
+}
+
+/* background section on about me page */
+#my_background {
+    background-color: #e0f7fa;
+}
+
+/* interests section on about me page */
+#my_interests {
+    background-color: #fff9c4;
+}
+
+/* h2 inside sections on about me page */
+.about-page section h2 {
+    color: #00695c;
+}/* Styles for topic_of_interest.html */
+
+#swap_image {
+    width: 300px;
+}
+
+#moving_box {
+    position: relative;
+    width: 120px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+button {
+    margin: 10px 0;
+    padding: 8px 12px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: white;
+}
+
+header,
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.columns {
+  width: 100%;
+}
+
+.column1,
+.column2,
+.column3 {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+.prototype a {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
+  color: #222;
+  background-color: white;
+}
+
+.wireframe-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wireframe-item {
+  width: 100%;
+}
+
+.wireframe-item img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #999;
+}
+
+.site-map-image {
+  width: 100%;
+  height: auto;
+  border: 1px solid #999;
+}
+
+#moving_box {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+}
